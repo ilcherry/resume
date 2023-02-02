@@ -1,0 +1,17 @@
+{
+  "name": "resume",
+  "version": "0.0.1",
+  "description": "个人工作简历",
+  "main": "index.js",
+  "author": "qinghuanI",
+  "license": "MIT",
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs",
+    "prettier": "prettier --write docs"
+  },
+  "devDependencies": {
+    "prettier": "^2.8.3",
+    "vuepress": "^1.9.8"
+  }
+}
