@@ -11,7 +11,12 @@
     "prettier": "prettier --write docs"
   },
   "devDependencies": {
+    "@vuepress/plugin-back-to-top": "^1.9.8",
     "prettier": "^2.8.3",
     "vuepress": "^1.9.8"
+  },
+  "dependencies": {
+    "async-validator": "^4.2.5",
+    "element-ui": "^2.15.12"
   }
 }
