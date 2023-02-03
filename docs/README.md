@@ -1,3 +1,9 @@
+---
+home: true
+heroText: 高威
+tagline: 7 年 Web 前端开发  邮箱:1062217965@qq.com
+---
+
 ## 专业技能
 
 - 熟悉 React/Vue 技术生态、TypeScript 等，能够熟练编写高质量组件
@@ -8,7 +14,7 @@
 - 熟练使用 React 框架以及 `React-Router`、`Redux/Mobx` 开发 Sass 平台（熟悉 Vue 框架）
 - 熟练使用 `VuePress`、`dumi` 和 `Docusaurus` 静态网站生成器
 - 熟练使用 `GitHub Actions/GitHub Pages` 和 `Vercel` 等 `CI/CD` 工具
-- 熟悉 `Sentry`、`NewRelic` 等前端监控产品
+- 熟悉 `Sentry` 和 `NewRelic` 等前端监控产品
 
 ## 工作经历
 
@@ -41,9 +47,9 @@
 超融合安装平台研发，用于自动化安装云平台产品
 
 <el-row :gutter="20" justify="space-between">
-  <el-col :span="9">中铁工程机械设计研究院有限公司</el-col>
-  <el-col :span="4" :style="{textAlign: 'center'}">前端工程师</el-col>
-  <el-col :span="5" :style="{textAlign: 'center'}">智能制造信息化部</el-col>
+  <el-col :span="6">中铁工程机械设计研究院有限公司</el-col>
+  <el-col :span="6" :style="{textAlign: 'center'}">前端工程师</el-col>
+  <el-col :span="6" :style="{textAlign: 'center'}">智能制造信息化部</el-col>
   <el-col :span="6" :style="{textAlign: 'right'}">2015/10 ——2018/7</el-col>
 </el-row>
 
@@ -113,7 +119,7 @@ PaaS、SaaS 等企业级应用的横向扩展
 - 使用 post 传输的 FormData 数据格式实现 50G 大文件的断点续传功能
 - 用 websocket 替换轮询，重构安装部署的流程状态，并记录安装每一步 的状态(浏览器刷新的情景下)
 
-**中铁智慧设备管理云**
+**中铁智慧设备管理云平台**
 
 项目描述：通过该平台，可满足施工方、监管方及设计方三方，对工程、人、设备、原料、任务排产、质检等全方位的监控和管理
 
@@ -138,7 +144,7 @@ PaaS、SaaS 等企业级应用的横向扩展
 
 ## 个人成就
 
-- 著有"用于电脑的云计算管理平台的图形用户界面"外观设计专利
+- 著有《用于电脑的云计算管理平台的图形用户界面》外观设计专利
 - 在[稀土掘金](https://juejin.cn/user/4212984286819384/posts)、SegmentFault 思否、知乎、语雀、简书、GitHub 上撰写技术博客
 - 撰写《WebStorm 使用指南》电子书，帮助开发人员了解和掌握 WebStorm 使用技巧
 
@@ -147,3 +153,7 @@ PaaS、SaaS 等企业级应用的横向扩展
 - 逻辑清晰，代码条理清晰，喜欢系统性思维
 - 对 web 前端技术有强烈兴趣，热衷 web 前沿技术研究和新技术调研，有良好的学习能力和团队合作精神
 - 具备良好的编程习惯，有较强的代码阅读能力和学习能力
+
+::: slot footer
+MIT Licensed | Copyright © 2023-present [qinghuanI](https://github.com/qinghuanI)
+:::
