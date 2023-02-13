@@ -6,14 +6,15 @@ tagline: 8 年 Web 前端开发
 
 ## 专业技能
 
-- 熟悉使用 `Webpack/Babel/esbuild` 打包器和编译器，并有实施、调优经验
-- 熟悉使用 `koa2/express` 写 BFF 业务，并用 vercel 部署
+- 熟悉使用 `Webpack/Babel/esbuild/Vite` 打包器和编译器，并有实施、调优经验
+- 熟悉使用 `Koa2/Express` 后端框架写 BFF 业务，并用 vercel 部署
 - 熟练掌握 Linux 基本命令，使用 Nginx 做反向代理和静态资源部署
 - 熟练使用 Git 做项目版本管理、采用 GitHub flow 工作流和 github action CI/CD
-- 熟练使用 `React` 框架以及 `React-Router`、`Redux/Mobx` 开发 SaaS 平台（熟悉 Vue 框架）
+- 熟练使用 `React` 框架以及 `React-Router`、`Redux/Mobx` 开发 SaaS 平台（熟悉 Vue/Svelte 框架）
 - 熟练使用 `VuePress`、`dumi` 和 `Docusaurus` 静态网站生成器
 - 熟练使用 `GitHub Actions/GitHub Pages`、`Netlify` 和 `Vercel` 等 `CI/CD` 工具
 - 熟练使用 `Qodana` 和 `SonarQube` 等静态分析工具
+- 熟练使用 Jest 测试框架，熟悉 Playwright/Vitest 测试框架，具有编写单元测试、端到端测试项目经验
 - 熟悉 `Sentry` 和 `NewRelic` 等前端监控产品
 
 ## 工作经历
@@ -25,7 +26,7 @@ tagline: 8 年 Web 前端开发
   <el-col :span="6" :style="{textAlign: 'right'}"><strong :style='{fontWeight:"700"}'>2021/8—至今</strong></el-col>
 </el-row>
 
-负责客服呼叫中心 Sass 平台研发，独立完成 Digital Connect 数字频道，推动项目从 JS 转 TS。完善项目的前端工程化建设、制定开发规范，指导初级、中级前端开发
+负责客服呼叫中心 SaaS 平台研发，独立完成 Digital Connect 数字平台建设。完善项目的前端工程化建设、制定开发规范，指导初级、中级前端开发
 
 <el-row :gutter="20" justify="space-between">
 <el-col :span="6"><strong :style='{fontWeight:"700"}'>Thoughtworks</strong></el-col>
@@ -34,7 +35,7 @@ tagline: 8 年 Web 前端开发
 <el-col :span="6" :style="{textAlign: 'right'}"><strong :style='{fontWeight:"700"}'>2020/11 ——2021/8</strong></el-col>
 </el-row>
 
-完成美国 Health All clear 公司疫情绿码、麦肯锡 Sass 学习平台和奔驰金融跨端 APP（**React Native App**）等多个项目，并高质量交付产品、获得客户高度好评，指导初级前端开发
+短短九个月里完成美国 Health All clear 公司疫情绿码、麦肯锡 SaaS 学习平台和奔驰金融 APP（**React Native App**）等多个项目，并高质量交付产品、获得客户高度好评，指导初级前端开发
 
 <el-row :gutter="20" justify="space-between">
 <el-col :span="6"><strong :style='{fontWeight:"700"}'>青云科技武汉研发中心</strong></el-col>
@@ -52,11 +53,11 @@ tagline: 8 年 Web 前端开发
   <div><strong :style='{fontWeight:"700"}'>2015/10 ——2018/7</strong></div>
 </div>
 
-独立负责中铁设备管理云平台研发。针对客户的定制化要求，推出中铁上海局运维管理平台、中铁二局智慧设备管理云
+独立负责中铁设备管理云平台研发。针对客户的定制化要求，推出中铁上海局运维管理平台、中铁二局智慧设备管理云平台
 
 ## 项目经历
 
-**SaaS 智能化呼叫中心与客服管理平台**
+[**SaaS 智能化呼叫中心与客服管理平台**](https://www.talkdesk.com/cloud-contact-center/)
 
 项目描述：SaaS 智能化呼叫中心与客服管理平台是一个云联络平台，提供自动聊天机器人、业务端到端自动化、通话记录自动分析等特色功能、简化业务流程的同时提高工作效率
 
@@ -74,11 +75,11 @@ tagline: 8 年 Web 前端开发
 
 项目成果：talkdesk 智能客服自动化平台是公司的核心产品，拥有客户 1800 多家，并获得多家著名投资机构领投
 
-**麦肯锡学习平台**
+**麦肯锡 SaaS 学习平台**
 
 项目描述：由前后端不分离的 C# 项目重构成前后端分离的新麦肯锡学习平台
 
-项目职责：基于 ant-design-pro 二次开发，从零开始使用 typescript,打造基于业务的可复用的 Modal/Table/Form 公共组件，使用
+项目职责：基于 ant-design-pro 二次开发，从零开始使用 typescript，打造基于业务的可复用的 Modal/Table/Form 公共组件，使用
 ant-design-chart 做条形图、折线图等做数据可视化，带领和指导初级前端做需求
 
 [//]: # "**青云 LegoUI 组件库**"
