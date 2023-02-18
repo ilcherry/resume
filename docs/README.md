@@ -6,43 +6,44 @@ tagline: 8 年 Web 前端开发
 
 ## 专业技能
 
-- 熟悉使用 `Webpack/Babel/esbuild/Vite` 打包器和编译器，并有实施、调优经验
-- 熟悉使用 `Koa2/Express` 后端框架写 BFF 业务，并用 vercel 部署
+- 熟悉使用 Webpack/Babel/esbuild/Vite/Rollup 打包器和编译器，并有实施、调优经验
+- 熟悉使用 Koa2/Express 后端框架写 BFF 业务，并用 vercel 部署
 - 熟练掌握 Linux 基本命令，使用 Nginx 做反向代理和静态资源部署
 - 熟练使用 Git 做项目版本管理、采用 GitHub flow 工作流和 github action CI/CD
-- 熟练使用 `React` 框架以及 `React-Router`、`Redux/Mobx` 开发 SaaS 平台（熟悉 Vue/Svelte 框架）
-- 熟练使用 `VuePress`、`dumi` 和 `Docusaurus` 静态网站生成器
-- 熟练使用 `GitHub Actions/GitHub Pages`、`Netlify` 和 `Vercel` 等 `CI/CD` 工具
-- 熟练使用 `Qodana` 和 `SonarQube` 等静态分析工具
+- 熟练使用 React 框架以及 React-Router、Redux/Mobx 开发 SaaS 平台（熟悉 Vue/Svelte 框架）
+- 熟练使用 VuePress、dump 和 Docusaurus 静态网站生成器
+- 熟练使用 GitHub Actions/GitHub Pages、Netlify 和 Vercel 等 CI/CD 工具
+- 熟练使用 Qodana 和 SonarQube 等静态分析工具
 - 熟练使用 Jest 测试框架，熟悉 Playwright/Vitest 测试框架，具有编写单元测试、端到端测试项目经验
-- 熟悉 `Sentry` 和 `NewRelic` 等前端监控产品
+- 熟悉 Sentry 和 NewRelic 等前端监控产品
 
 ## 工作经历
 
-<el-row :gutter="20" justify="space-between">
-  <el-col :span="6"><strong :style='{fontWeight:"700"}'>Talkdesk</strong></el-col>
-  <el-col :span="6" :style="{textAlign: 'center'}"><strong :style='{fontWeight:"700"}'>资深前端工程师</strong></el-col>
-  <el-col :span="6" :style="{textAlign: 'center'}"><strong :style='{fontWeight:"700"}'>DCE 项目组</strong></el-col>
-  <el-col :span="6" :style="{textAlign: 'right'}"><strong :style='{fontWeight:"700"}'>2021/8—至今</strong></el-col>
-</el-row>
+<CompanyProfile
+  name="Talkdesk"
+  title="资深前端工程师"
+  department="DCE 项目组"
+  workTime="2021/8—至今"
+/>
 
 负责客服呼叫中心 SaaS 平台研发，独立完成 Digital Connect 数字平台建设。完善项目的前端工程化建设、制定开发规范，指导初级、中级前端开发
 
-<el-row :gutter="20" justify="space-between">
-<el-col :span="6"><strong :style='{fontWeight:"700"}'>Thoughtworks</strong></el-col>
-<el-col :span="6" :style="{textAlign: 'center'}"><strong :style='{fontWeight:"700"}'>高级前端工程师</strong></el-col>
-<el-col :span="6" :style="{textAlign: 'center'}"><strong :style='{fontWeight:"700"}'>华北项目组</strong></el-col>
-<el-col :span="6" :style="{textAlign: 'right'}"><strong :style='{fontWeight:"700"}'>2020/11 ——2021/8</strong></el-col>
-</el-row>
+<CompanyProfile
+  name="Thoughtworks"
+  title="高级前端工程师"
+  department="华北项目组"
+  workTime="2020/11—2021/8"
+/>
 
-短短九个月里完成美国 Health All clear 公司疫情绿码、麦肯锡 SaaS 学习平台和奔驰金融 APP（**React Native App**）等多个项目，并高质量交付产品、获得客户高度好评，指导初级前端开发
+短短九个月里完成美国 [Allclearhealthcare](https://allclearhealthcare.com/) 公司新冠疫情个人通行码、麦肯锡 SaaS 学习平台和奔驰金融
+APP（**React Native App**）等多个项目，并高质量交付产品、获得客户高度好评，指导初级前端开发
 
-<el-row :gutter="20" justify="space-between">
-<el-col :span="6"><strong :style='{fontWeight:"700"}'>青云科技武汉研发中心</strong></el-col>
-<el-col :span="6" :style="{textAlign: 'center'}"><strong :style='{fontWeight:"700"}'>高级前端工程师</strong></el-col>
-<el-col :span="6" :style="{textAlign: 'center'}"><strong :style='{fontWeight:"700"}'>前端研发部</strong></el-col>
-<el-col :span="6" :style="{textAlign: 'right'}"><strong :style='{fontWeight:"700"}'>2018/7 ——2020/9</strong></el-col>
-</el-row>
+<CompanyProfile
+name="青云科技武汉研发中心"
+title="高级前端工程师"
+department="前端研发部"
+workTime="2018/7—2020/9"
+/>
 
 参与青云科技私有云平台建设，推动青立方超融合平台自动化、智能化安装产品落地
 
@@ -50,7 +51,7 @@ tagline: 8 年 Web 前端开发
   <div><strong :style='{fontWeight:"700"}'>中铁工程机械设计研究院有限公司</strong></div>
   <div><strong :style='{fontWeight:"700"}'>前端工程师</strong></div>
   <div><strong :style='{fontWeight:"700"}'>智能制造信息化部</strong></div>
-  <div><strong :style='{fontWeight:"700"}'>2015/10 ——2018/7</strong></div>
+  <div><strong :style='{fontWeight:"700"}'>2015/10—2018/7</strong></div>
 </div>
 
 独立负责中铁设备管理云平台研发。针对客户的定制化要求，推出中铁上海局运维管理平台、中铁二局智慧设备管理云平台
@@ -81,15 +82,6 @@ tagline: 8 年 Web 前端开发
 
 项目职责：基于 ant-design-pro 二次开发，从零开始使用 typescript，打造基于业务的可复用的 Modal/Table/Form 公共组件，使用
 ant-design-chart 做条形图、折线图等做数据可视化，带领和指导初级前端做需求
-
-[//]: # "**青云 LegoUI 组件库**"
-[//]: #
-[//]: # "项目描述：legoUI 是公司内部一款基于类组件的 react 组件库，服务于青云的各大产品。比如公司开源的 Kubesphere 容器管理平台、青立方超融合平台等"
-[//]: #
-[//]: # "项目职责：负责开发 Button 按钮、Tag 标签组件、Timeline 时间轴组件"
-[//]: #
-[//]: # "项目业绩：作为公司前端组重要的 React 组件库、使用的业务场景复杂，开发组件库的过程中主动学习 ant design 和 material design"
-[//]: # "的设计规范和模式，从中学习如何设计优秀的组件，封装组件必备的基础功能并暴露对外的接口，最后为组件编写使用文档"
 
 **[青云云易捷系统](https://www.qingcloud.com/products/cloudexpress)**
 
@@ -145,7 +137,8 @@ PaaS、SaaS 等企业级应用的横向扩展
 ## 个人成就
 
 - 著有《用于电脑的云计算管理平台的图形用户界面》外观设计专利、中国中铁企业管理现代化创新成果奖
-- 在[稀土掘金](https://juejin.cn/user/4212984286819384/posts)、[SegmentFault 思否](https://segmentfault.com/u/demo_5bf76b5f152ef/articles)、知乎、语雀、简书、[GitHub](https://github.com/qinghuanI/qinghuanI.github.io/issues) 上撰写技术博客
+- 在[个人博客](https://qinghuani.fun/)、[稀土掘金](https://juejin.cn/user/4212984286819384/posts)、[SegmentFault 思否](https://segmentfault.com/u/demo_5bf76b5f152ef/articles)
+  、知乎、语雀、简书、[GitHub](https://github.com/qinghuanI/qinghuanI.github.io/issues) 上撰写技术博客
 - 撰写[《WebStorm 使用指南》](https://www.qinghuani.fun/webstorm-guide/)电子书，帮助开发人员了解和掌握 WebStorm 使用技巧
 - 发布 `sse-client` npm 依赖
 
