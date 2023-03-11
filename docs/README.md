@@ -7,11 +7,11 @@ tagline: 8 年 Web 前端开发
 ## 专业技能
 
 - 熟悉使用 Webpack/Babel/esbuild/Vite/Rollup 打包器和编译器，并有实施、调优经验
-- 熟悉使用 Koa2/Express 后端框架写 BFF 业务，并用 vercel 部署
+- 熟悉使用 Koa2/Express 后端框架写 BFF 业务，并用 Vercel/GitHub Pages 部署
 - 熟练掌握 Linux 基本命令，使用 Nginx 做反向代理和静态资源部署
 - 熟练使用 Git 做项目版本管理、采用 GitHub flow 工作流和 github action CI/CD
-- 熟练使用 React 框架以及 React-Router、Redux/Mobx 开发 SaaS 平台（熟悉 Vue/Svelte 框架）
-- 熟练使用 VuePress、dump 和 Docusaurus 静态网站生成器
+- 熟练使用 React 框架以及 React-Router、Redux/Mobx 开发 SaaS 平台（熟悉 Vue/Svelte/Solid 框架）
+- 熟练使用 VuePress、dumi 和 Docusaurus 静态网站生成器
 - 熟练使用 GitHub Actions/GitHub Pages、Netlify 和 Vercel 等 CI/CD 工具
 - 熟练使用 Qodana 和 SonarQube 等静态分析工具
 - 熟练使用 Jest 测试框架，熟悉 Playwright/Vitest 测试框架，具有编写单元测试、端到端测试项目经验
@@ -26,7 +26,7 @@ tagline: 8 年 Web 前端开发
   workTime="2021/8—至今"
 />
 
-负责客服呼叫中心 SaaS 平台研发，独立完成 Digital Connect 数字平台建设。完善项目的前端工程化建设、制定开发规范，指导初级、中级前端开发
+负责智能化呼叫中心与客服管理平台研发，独立完成 Digital Connect 数字平台建设。完善项目的前端工程化建设、制定开发规范，指导初级、中级前端开发
 
 <CompanyProfile
   name="Thoughtworks"
@@ -45,7 +45,7 @@ department="前端研发部"
 workTime="2018/7—2020/9"
 />
 
-参与青云科技私有云平台建设，推动青立方超融合平台自动化、智能化安装产品落地
+参与青云科技私有云平台云易捷建设，推动青立方超融合平台自动化、智能化安装产品落地
 
 <div :style="{display: 'flex', justifyContent: 'space-between'}">
   <div><strong :style='{fontWeight:"700"}'>中铁工程机械设计研究院有限公司</strong></div>
@@ -80,8 +80,11 @@ workTime="2018/7—2020/9"
 
 项目描述：由前后端不分离的 C# 项目重构成前后端分离的新麦肯锡学习平台
 
-项目职责：基于 ant-design-pro 二次开发，从零开始使用 typescript，打造基于业务的可复用的 Modal/Table/Form 公共组件，使用
-ant-design-chart 做条形图、折线图等做数据可视化，带领和指导初级前端做需求
+项目职责：
+- 基于 ant-design-pro 二次开发，从零开始使用 typescript，
+- 打造基于业务的可复用的 Modal/Table/Form 公共组件，使用
+- ant-design-chart 做条形图、折线图等做数据可视化，
+- 带领和指导初级前端做需求
 
 **[青云云易捷系统](https://www.qingcloud.com/products/cloudexpress)**
 
@@ -113,11 +116,11 @@ PaaS、SaaS 等企业级应用的横向扩展
 
 **中铁智慧设备管理云平台**
 
-项目描述：通过该平台，可满足施工方、监管方及设计方三方，对工程、人、设备、原料、任务排产、质检等全方位的监控和管理
+项目描述：该平台帮助施工方、监管方及设计方三方对工程、人、设备、原料、任务排产和质检等等任务全方位的监控和管理
 
 项目职责：
 
-- 积极参与部门需求会议，分析、讨论平台需求，撰写需求分析报告
+- 积极参与部门产品需求，概要设计、产品设计等流程并撰写所有产出文档
 - 使用 react+react-router+mobx+scss，搭建平台前端整体架构
 - 基于高德地图解决铁路施工设备 GIS 地图显示
 - 使用 video.js 播放 rtmp 实时视频流等等难题。
@@ -149,5 +152,5 @@ PaaS、SaaS 等企业级应用的横向扩展
 - 具备良好的编程习惯，有较强的代码阅读能力和学习能力
 
 ::: slot footer
-Copyright© 2015-present [qinghuanI](https://github.com/qinghuanI)
+Copyright© 2023 [qinghuanI](https://github.com/qinghuanI)
 :::
