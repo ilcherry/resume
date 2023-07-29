@@ -11,7 +11,7 @@ tagline: 8 年 Web 前端开发
 - 熟练掌握 Linux 基本命令，使用 Nginx 做反向代理和静态资源部署
 - 熟练使用 Git 做项目版本管理、采用 GitHub flow 工作流和 github action CI/CD
 - 熟练使用 React 框架以及 React-Router、Redux/Mobx 开发 SaaS 平台（熟悉 Vue/Svelte/Solid 框架）
-- 熟练使用 VuePress、dumi 和 Docusaurus 静态网站生成器
+- 熟练使用 VuePress、dumi 和 Docusaurus 等静态网站生成器
 - 熟练使用 GitHub Actions/GitHub Pages、Netlify 和 Vercel 等 CI/CD 工具
 - 熟练使用 Qodana 和 SonarQube 等静态分析工具
 - 熟练使用 Jest 测试框架，熟悉 Playwright/Vitest 测试框架，具有编写单元测试、端到端测试项目经验
@@ -72,7 +72,7 @@ workTime="2018/7—2020/9"
 - 使用 webdirver、playright 对项目做可视化测试，可甄别出 1px 的改动
 - 在 confluence 上编写复杂业务场景技术实现方案.(使用 rxjs 整合多个接口的数据)
 - 使用 Server-Sent-Events 技术替换短轮询，极大优化产品的性能
-- 定期分享前端技术，讲过《前端工程化》
+- 定期分享前端技术，先后在公司内部分享《前端工程化》、《深入浅出SWR》技术
 
 项目成果：talkdesk 智能客服自动化平台是公司的核心产品，拥有客户 1800 多家，并获得多家著名投资机构领投
 
@@ -120,8 +120,9 @@ PaaS、SaaS 等企业级应用的横向扩展
 
 项目职责：
 
-- 积极参与部门产品需求，概要设计、产品设计等流程并撰写所有产出文档
-- 使用 react+react-router+mobx+scss，搭建平台前端整体架构
+- 参与前端团队的技术决策. 架构建设及优化
+- 使用 react+react-router+mobx+scss 技术栈搭建公司前端项目脚手架
+- 优化前端代码结构，设计开发通用组件
 - 基于高德地图解决铁路施工设备 GIS 地图显示
 - 使用 video.js 播放 rtmp 实时视频流等等难题。
 - 撰写设备管理云平台发明专利
