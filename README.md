@@ -1,7 +1,7 @@
 [个人工作简历](https://qinghuani.fun/resume/)
 
 
-使用 [VitePress](https://vitejs.cn/vitepress/) 重写在线简历 
+使用 [VitePress](https://vitejs.cn/vitepress/) 重写在线简历，经过验证，VitePress 无法完成，还是通过 VuePress 来写
 
 
 ## Talkdesk
