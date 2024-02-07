@@ -1,6 +1,9 @@
 [个人工作简历](https://qinghuani.fun/resume/)
 
 
+使用 [VitePress](https://vitejs.cn/vitepress/) 重写在线简历 
+
+
 ## Talkdesk
 
 - Conv-App
