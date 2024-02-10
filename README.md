@@ -6,9 +6,15 @@
 
 ## Talkdesk
 
-- Conv-App
+- [Conv-App](https://www.talkdesk.com/cloud-contact-center/omnichannel-engagement/)
+
+千万订阅用户，提供 DG、fax/Chat/SMS/Voice 等渠道
+  
 - New Chat Widget
-- 黑客马拉松
+
+
+
+- 黑客马拉松 （BotForce）项目
 
 ## TW
 
