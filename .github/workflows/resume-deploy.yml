@@ -10,7 +10,7 @@ jobs:
       - name: vuepress-deploy
         uses: jenkey2011/vuepress-deploy@master
         env:
-          ACCESS_TOKEN: ${{ secrets.GAOWEI }}
+          ACCESS_TOKEN: ${{ secrets.RESUME }}
           TARGET_REPO: ilcherry/resume
           TARGET_BRANCH: gh_pages
           BUILD_SCRIPT: yarn && yarn build
