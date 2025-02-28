@@ -5,6 +5,7 @@
 - 熟练使用 React 框架以及 React-Router、Zustand 和 Tailwind CSS 开发 SaaS 平台（熟悉 Vue/Svelte/Solid 框架）
 - 熟悉使用 Babel/esbuild/Webpack/Vite/Rollup 编译和构建工具，并有实施、调优经验
 - 熟悉使用 Koa2/Express 后端框架写 BFF 服务，并用 Vercel/Docker+PM2 部署，了解 GraphQL
+- 熟悉使用 TypeScript，熟练运用类型系统进行静态检查，提升代码可维护性，优化大型前端项目的类型安全和开发效率
 - 熟练掌握 Linux 基本命令，使用 Nginx 做反向代理和静态资源部署
 - 熟练使用 Git 做项目版本管理、采用 GitHub flow 工作流管理开发进度
 - 熟练使用 VuePress、VitePress、dumi、Rspress 和 Docusaurus 等静态网站生成器
@@ -14,6 +15,7 @@
 - 熟练使用 GitHub CI 管理自动构建流程、执行类型检查/单元测试/视觉回归测试/SonarQube 检查等等，了解 Jenkins 基本用法
 - 熟练使用 GitHub Pages、Netlify 和 Vercel 等 CD 工具部署产品
 - 熟悉 Sentry、Dynatrace 和 NewRelic 等前端监控产品
+- 熟悉 PostgresSQL、MongoDB 和 Redis 的使用
 
 ## 项目经历
 
@@ -37,6 +39,8 @@
 - 使用 Playwright 编写视觉回归测试，可甄别出 1px 的改动，UI 的 Bugs 降低 60%
 - 接入 NewRelic 和 Dynatrace 工具，收集、分析和展示产品的性能数据，帮助发现性能、故障等
 - 接入 Twilio 的 Voice SDK 实现语音通话功能，提供高质量的实时语音通信服务
+- 独立使用 Express 构建 BFF 服务，接入 GraphQL，减少前端 HTTP 请求次数，支持按需获取数据，降低冗余请求，提升接口响应速度 40%
+- 使用 GitHub Actions 管理产品自动构建流程、执行类型检查/单元测试/视觉回归测试/SonarQube 检查
 - 定期分享前端技术，先后在公司内部分享《前端工程化》、《深入浅出 SWR》技术
 
 ##
@@ -115,6 +119,7 @@ PaaS、SaaS 等企业级应用的横向扩展
 - 采用短轮询(short polling)实现页面直播
 - 接入高德地图 API 实现全国铁路施工设备 GIS 地图显示
 - 利用特征值、数据清洗等算法优化海量实时施工数据显示慢
+- 利用 Echarts 中的各种图表实现企业数据可视化 BI 大屏
 - 撰写设备管理云平台发明专利
 
 ## 教育经历
