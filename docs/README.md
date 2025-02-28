@@ -1,133 +1,121 @@
----
-home: true
-heroText: 高威
-tagline: 8 年 Web 前端开发
----
+<Profile/>
 
 ## 专业技能
 
-- 熟悉使用 Webpack/Babel/esbuild/Vite/Rollup 打包器和编译器，并有实施、调优经验
-- 熟悉使用 Koa2/Express 后端框架写 BFF 业务，并用 Vercel/GitHub Pages 部署
+- 熟练使用 React 框架以及 React-Router、Zustand 和 Tailwind CSS 开发 SaaS 平台（熟悉 Vue/Svelte/Solid 框架）
+- 熟悉使用 Babel/esbuild/Webpack/Vite/Rollup 编译和构建工具，并有实施、调优经验
+- 熟悉使用 Koa2/Express 后端框架写 BFF 服务，并用 Vercel/Docker+PM2 部署，了解 GraphQL
 - 熟练掌握 Linux 基本命令，使用 Nginx 做反向代理和静态资源部署
-- 熟练使用 Git 做项目版本管理、采用 GitHub flow 工作流和 github action CI/CD
-- 熟练使用 React 框架以及 React-Router、Redux/Mobx 开发 SaaS 平台（熟悉 Vue/Svelte/Solid 框架）
-- 熟练使用 VuePress、dumi 和 Docusaurus 等静态网站生成器
-- 熟练使用 GitHub Actions/GitHub Pages、Netlify 和 Vercel 等 CI/CD 工具
-- 熟练使用 Qodana 和 SonarQube 等静态分析工具
-- 熟练使用 Jest 测试框架，熟悉 Playwright/Vitest 测试框架，具有编写单元测试、端到端测试项目经验
-- 熟悉 Sentry 和 NewRelic 等前端监控产品
+- 熟练使用 Git 做项目版本管理、采用 GitHub flow 工作流管理开发进度
+- 熟练使用 VuePress、VitePress、dumi、Rspress 和 Docusaurus 等静态网站生成器
+- 了解 Next.js、Nuxt.js 等服务端渲染框架、具备优化网页性能和 SEO 的经验
+- 熟练使用 Jest/Vitest 编写单元测试，使用 Playwright 编写 E2E 测试和视觉回归测试
+- 熟练使用 Chrome DevTools、Lighthouse、Web Vitals 以及 Charles 等工具优化网站性能、调试和提升用户体验
+- 熟练使用 GitHub CI 管理自动构建流程、执行类型检查/单元测试/视觉回归测试/SonarQube 检查等等，了解 Jenkins 基本用法
+- 熟练使用 GitHub Pages、Netlify 和 Vercel 等 CD 工具部署产品
+- 熟悉 Sentry、Dynatrace 和 NewRelic 等前端监控产品
 
-## 工作经历
+## 项目经历
 
 <CompanyProfile
   name="Talkdesk"
   title="资深前端工程师"
-  department="DCE 项目组"
-  workTime="2021/8—至今"
+  workTime="2021/8—2025/3"
 />
 
-负责智能化呼叫中心与客服管理平台研发，独立完成 Digital Connect 数字平台建设。完善项目的前端工程化建设、制定开发规范，指导初级、中级前端开发
+负责智能化呼叫中心与客服管理平台研发，独立完成 Digital Connect 数字平台建设和 ChatBot 研发
+
+### **ChatBot**
+
+项目描述：ChatBot 是自研的聊天机器人、帮助企业或个人解决问题、处理业务往来和提供产品服务等
+
+项目职责：
+
+- 使用 Vite 工具构建项目、使用 Lerna 管理项目代码，对不同的仓库单独发版部署
+- 使用 Prettier/ESLint/Stylelint/CSpell/commitlint/husky 等工具，提升代码质量与团队协作效率
+- 使用 Vitest 编写单元测试，测试覆盖率达到 90%+
+- 使用 Playwright 编写视觉回归测试，可甄别出 1px 的改动，UI 的 Bugs 降低 60%
+- 接入 NewRelic 和 Dynatrace 工具，收集、分析和展示产品的性能数据，帮助发现性能、故障等
+- 接入 Twilio 的 Voice SDK 实现语音通话功能，提供高质量的实时语音通信服务
+- 定期分享前端技术，先后在公司内部分享《前端工程化》、《深入浅出 SWR》技术
+
+##
 
 <CompanyProfile
   name="Thoughtworks"
   title="高级前端工程师"
-  department="华北项目组"
-  workTime="2020/11—2021/8"
+  workTime="2020/10—2021/7"
 />
 
-短短九个月里完成美国 [Allclearhealthcare](https://allclearhealthcare.com/) 公司新冠疫情个人通行码、麦肯锡 SaaS 学习平台和奔驰金融
-APP（**React Native App**）等多个项目，并高质量交付产品、获得客户高度好评，指导初级前端开发
+参与 Allclearhealthcare、麦肯锡学习平台和奔驰金融 APP（Hybrid App）等多个产品研发
+
+### **奔驰金融 APP**
+
+- 使用 React-Native + TypeScript+React-Router + Recoil 作为技术选型
+- 采用虚拟列表、懒加载等技术，动态加载可视区域的数据，避免一次性渲染所有内容，确保长列表流畅的用户体验
+- 使用 Server-Sent-Events 技术替换短轮询，极大优化产品的性能，并封装 sse-sdk
+- 使用 Jest + React Testing Library 编写单元测试、测试覆盖率达到 90%+，发布周期缩短 50%
+- 使用 React Navigation6+配合 React Native Screens 启用原生导航，页面切换流畅度接近原生 App
+- 通过 WebView 的优化、代码分离、懒加载等技术手段来提升页面渲染和大数据量加载的性能
+
+##
 
 <CompanyProfile
-name="青云科技武汉研发中心"
+name="中国电子系统技术有限公司"
 title="高级前端工程师"
-department="前端研发部"
-workTime="2018/7—2020/9"
+workTime="2020/8—2020/9"
+/>
+
+参与公司内部 BI 设计器研发
+
+##
+
+<CompanyProfile
+name="青云科技"
+title="高级前端工程师"
+workTime="2019/3—2020/7"
 />
 
 参与青云科技私有云平台云易捷建设，推动青立方超融合平台自动化、智能化安装产品落地
 
-<div :style="{display: 'flex', justifyContent: 'space-between'}">
-  <div><strong :style='{fontWeight:"700"}'>中铁工程机械设计研究院有限公司</strong></div>
-  <div><strong :style='{fontWeight:"700"}'>前端工程师</strong></div>
-  <div><strong :style='{fontWeight:"700"}'>智能制造信息化部</strong></div>
-  <div><strong :style='{fontWeight:"700"}'>2015/10—2018/7</strong></div>
-</div>
-
-独立负责中铁设备管理云平台研发。针对客户的定制化要求，推出中铁上海局运维管理平台、中铁二局智慧设备管理云平台
-
-## 项目经历
-
-[**SaaS 智能化呼叫中心与客服管理平台**](https://www.talkdesk.com/cloud-contact-center/)
-
-项目描述：SaaS 智能化呼叫中心与客服管理平台是一个云联络平台，提供自动聊天机器人、业务端到端自动化、通话记录自动分析等特色功能、简化业务流程的同时提高工作效率
-
-项目职责：
-
-- 使用 yarn 的 monorepo 管理多个仓库代码，对不同的仓库单独发版部署
-- 选取 iframe 实现微前端、多个项目部署后提供资源链接，由不同的 iframe 加载
-- 积极推动项目由 JS 改为 TS。并使用 ESLint 等工具管理项目代码规范
-- 独立完成 Digital Connect 数字频道建设，成功签得施耐德、墨西哥大银行公司合同
-- 使用 cspell、commitlint、ESLint、husky 等工具完善项目的工程化流程
-- 使用 webdirver、playright 对项目做可视化测试，可甄别出 1px 的改动
-- 在 confluence 上编写复杂业务场景技术实现方案.(使用 rxjs 整合多个接口的数据)
-- 使用 Server-Sent-Events 技术替换短轮询，极大优化产品的性能
-- 定期分享前端技术，先后在公司内部分享《前端工程化》、《深入浅出SWR》技术
-
-项目成果：talkdesk 智能客服自动化平台是公司的核心产品，拥有客户 1800 多家，并获得多家著名投资机构领投
-
-**麦肯锡 SaaS 学习平台**
-
-项目描述：由前后端不分离的 C# 项目重构成前后端分离的新麦肯锡学习平台
-
-项目职责：
-- 基于 ant-design-pro 二次开发，从零开始使用 typescript，
-- 打造基于业务的可复用的 Modal/Table/Form 公共组件，使用
-- ant-design-chart 做条形图、折线图等做数据可视化，
-- 带领和指导初级前端做需求
-
-**[青云云易捷系统](https://www.qingcloud.com/products/cloudexpress)**
+### 青云云易捷系统
 
 项目描述：青云云易捷系统集成全栈化云计算能力，提供 QingCloud 企业云平台的软硬一体化交付，在计算、存储、网络资源的融合之上，实现
 PaaS、SaaS 等企业级应用的横向扩展
 
 项目职责：
 
-- 开发企业设置、v2v 迁移、产品国际化等大功能模块
-- 根据客户需求，完成小功能的迭代开发、并优化整个产品
-- 根据测试人员的测试反馈，修复产品存在的 bug
-- 使用 websocket 替换轮询进行数据交互，处理虚拟机的启动与停止
-- 使用 react-i18next 做产品的国际化
-- 使用 mobx store 的概念在 modal 里做多个大文件同时上传
+- 使用 React、React-Router、MobX 和 Lego-UI 作为技术选型
+- 参与公司内部 Lego-UI 组件库研发，推动组内使用 Storybook 编写组件库交互文档
+- 利用 Webpack 的 splitChunks 分割代码提升加载性能，使用 Express 在服务端直接渲染首屏
+- 手写虚拟列表组件，实现海量数据的按需渲染，有效解决页面卡顿问题，提升性能和用户体验
+- 使用 Socket.IO 建立前后端双向通信，及时响应虚拟机的未启动/启动中/正常运行/销毁中等状态
+- 利用 XRender 表单设计器实现动态表单生成，灵活构建和配置表单组件，提升表单开发效率和用户体验
+- 使用 DOMPurify 过滤用户输入、防止 XSS 攻击，确保应用安全性
+- 在网页上实现超大文件(20G+)断点续传，简化用户操作，支持一键迁移阿里云、腾讯云等主机数据至青云，提升迁移效率与体验
 
-项目业绩：青立方 ® 超融合系统易捷版作为私有云的简化版，目前已经大卖，武汉农商行、 中金等等很多公司都是该产品的忠实客户
+##
 
-**青云云易捷系统 installer**
+<div :style="{display: 'flex', justifyContent: 'space-between'}">
+  <div><strong :style='{fontWeight:"700"}'>中铁工程机械设计研究院有限公司</strong></div>
+  <div><strong :style='{fontWeight:"700"}'>前端工程师</strong></div>
+  <div><strong :style='{fontWeight:"700"}'>2017/8—2019/3</strong></div>
+</div>
 
-项目描述：青云云易捷系统采用 Web Installer 对待安装机器及部署流程进行可视 化部署，以极简的 Step-by-Step
-安装方式引导用户快速配置节点安装环境
+独立负责中铁设备管理云平台研发。针对客户的定制化要求，推出中铁上海局运维管理平台、中铁二局智慧设备管理云平台
 
-项目职责：
-
-- 审核项目全部的设计稿，制定项目采用的技术栈并实时优化技术栈
-- 开发信息收集、节点设置、可选服务、节点部署、节点管理、功能检查 服务巡检、在线命令、高级设置和扩容节点等功能模块
-- 使用 post 传输的 FormData 数据格式实现 50G 大文件的断点续传功能
-- 用 websocket 替换轮询，重构安装部署的流程状态，并记录安装每一步 的状态(浏览器刷新的情景下)
-
-**中铁智慧设备管理云平台**
+### **中铁智慧设备管理云平台**
 
 项目描述：该平台帮助施工方、监管方及设计方三方对工程、人、设备、原料、任务排产和质检等等任务全方位的监控和管理
 
 项目职责：
 
-- 参与前端团队的技术决策. 架构建设及优化
-- 使用 react+react-router+mobx+scss 技术栈搭建公司前端项目脚手架
-- 优化前端代码结构，设计开发通用组件
-- 基于高德地图解决铁路施工设备 GIS 地图显示
-- 使用 video.js 播放 rtmp 实时视频流等等难题。
+- 使用 Electron+Vue2+Vue-Router+Vuex 技术栈作为技术选型
+- 使用 Babel 降级 ES6+语法，用 core-js 作为 Polyfill 解决 IE11 访问页面白屏
+- 采用短轮询(short polling)实现页面直播
+- 接入高德地图 API 实现全国铁路施工设备 GIS 地图显示
+- 利用特征值、数据清洗等算法优化海量实时施工数据显示慢
 - 撰写设备管理云平台发明专利
-
-项目业绩：中铁智慧设备管理云获得中铁上海局、中铁二局、中铁七局集体采购和好评，受到中铁工业的赞许
 
 ## 教育经历
 
@@ -141,10 +129,9 @@ PaaS、SaaS 等企业级应用的横向扩展
 ## 个人成就
 
 - 著有《用于电脑的云计算管理平台的图形用户界面》外观设计专利、中国中铁企业管理现代化创新成果奖
-- 在[个人博客](https://qinghuani.fun/)、[稀土掘金](https://juejin.cn/user/4212984286819384/posts)、[SegmentFault 思否](https://segmentfault.com/u/demo_5bf76b5f152ef/articles)
-  、知乎、语雀、简书、[GitHub](https://github.com/qinghuanI/qinghuanI.github.io/issues) 上撰写技术博客
+- 经常在 [稀土掘金](https://juejin.cn/user/4212984286819384/posts) 上撰写技术博客
 - 撰写[《WebStorm 使用指南》](https://www.qinghuani.fun/webstorm-guide/)电子书，帮助开发人员了解和掌握 WebStorm 使用技巧
-- 发布 `sse-client` npm 依赖
+- 发布 `sse-client` npm
 
 ## 自我评价
 
@@ -153,5 +140,5 @@ PaaS、SaaS 等企业级应用的横向扩展
 - 具备良好的编程习惯，有较强的代码阅读能力和学习能力
 
 ::: slot footer
-Copyright© 2023 [qinghuanI](https://github.com/qinghuanI)
+Copyright© 2025 [ilcherry](https://github.com/ilcherry)
 :::

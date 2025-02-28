@@ -1,16 +1,16 @@
 {
   "name": "resume",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "个人工作简历",
-  "main": "index.js",
-  "author": "qinghuanI",
-  "license": "MIT",
   "scripts": {
-    "docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs",
-    "prettier": "prettier --write docs"
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs",
+    "prettier": "prettier --write docs",
+    "export-pdf": "press-export-pdf export docs/README.md --dest pdf"
   },
   "devDependencies": {
+    "@condorhero/vuepress-plugin-export-pdf": "^3.0.3",
+    "@snowdog/vuepress-plugin-pdf-export": "^1.1.0",
     "@vuepress/plugin-back-to-top": "^1.9.8",
     "prettier": "^2.8.3",
     "vuepress": "^1.9.8"
