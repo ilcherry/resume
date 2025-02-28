@@ -130,7 +130,7 @@ PaaS、SaaS 等企业级应用的横向扩展
 
 - 著有《用于电脑的云计算管理平台的图形用户界面》外观设计专利、中国中铁企业管理现代化创新成果奖
 - 经常在 [稀土掘金](https://juejin.cn/user/4212984286819384/posts) 上撰写技术博客
-- 撰写[《WebStorm 使用指南》](https://www.qinghuani.fun/webstorm-guide/)电子书，帮助开发人员了解和掌握 WebStorm 使用技巧
+- 撰写[《WebStorm 使用指南》](https://ilcherry.github.io/webstorm-guide/)电子书，帮助开发人员了解和掌握 WebStorm 使用技巧
 - 发布 `sse-client` npm
 
 ## 自我评价
