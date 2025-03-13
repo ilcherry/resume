@@ -12,7 +12,7 @@
 - 了解 Next.js、Nuxt.js 等服务端渲染框架、具备优化网页性能和 SEO 的经验
 - 熟练使用 Jest/Vitest 编写单元测试，使用 Playwright 编写 E2E 测试和视觉回归测试
 - 熟练使用 Chrome DevTools、Lighthouse、Web Vitals 以及 Charles 等工具优化网站性能、调试和提升用户体验
-- 熟练使用 GitHub CI 管理自动构建流程、执行类型检查/单元测试/视觉回归测试/SonarQube 检查等等，了解 Jenkins 基本用法
+- 熟练使用 GitHub Actions 管理自动构建流程、执行类型检查/单元测试/视觉回归测试/SonarQube/Codecov 检查等等，了解 Jenkins 基本用法
 - 熟练使用 GitHub Pages、Netlify 和 Vercel 等 CD 工具部署产品
 - 熟悉 Sentry、Dynatrace 和 NewRelic 等前端监控产品
 - 熟悉 PostgresSQL、MongoDB 和 Redis 的使用
