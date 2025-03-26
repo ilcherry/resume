@@ -28,7 +28,7 @@
 
 负责智能化呼叫中心与客服管理平台研发，独立完成 Digital Connect 数字平台建设和 ChatBot 研发
 
-### ** AI ChatBot**
+### **AI ChatBot**
 
 项目描述：AI ChatBot 是自研的聊天机器人、帮助企业或个人解决问题、处理业务往来和提供产品服务等
 
