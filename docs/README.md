@@ -3,19 +3,20 @@
 ## 专业技能
 
 - 熟练使用 React 框架以及 React-Router、Zustand 和 Tailwind CSS 开发 SaaS 平台（熟悉 Vue/Svelte/Solid 框架）
+- 熟悉使用 Node.js 进行 Restful API 开发
 - 熟悉使用 Babel/esbuild/Webpack/Vite/Rollup 编译和构建工具，并有实施、调优经验
-- 熟悉使用 Koa2/Express 后端框架写 BFF 服务，并用 Vercel/Docker+PM2 部署，了解 GraphQL
+- 熟悉使用 Koa2/Express.js 后端框架写 BFF 服务，并用 Vercel/Docker+PM2 部署，了解 GraphQL
 - 熟悉使用 TypeScript，熟练运用类型系统进行静态检查，提升代码可维护性，优化大型前端项目的类型安全和开发效率
 - 熟练掌握 Linux 基本命令，使用 Nginx 做反向代理和静态资源部署
 - 熟练使用 Git 做项目版本管理、采用 GitHub flow 工作流管理开发进度
 - 熟练使用 VuePress、VitePress、dumi、Rspress 和 Docusaurus 等静态网站生成器
-- 了解 Next.js、Nuxt.js 等服务端渲染框架、具备优化网页性能和 SEO 的经验
+- 熟练使用 Next.js、Nuxt.js 等服务端渲染框架、具备优化网页性能和 SEO 的经验
 - 熟练使用 Jest/Vitest 编写单元测试，使用 Playwright 编写 E2E 测试和视觉回归测试
 - 熟练使用 Chrome DevTools、Lighthouse、Web Vitals 以及 Charles 等工具优化网站性能、调试和提升用户体验
 - 熟练使用 GitHub Actions 管理自动构建流程、执行类型检查/单元测试/视觉回归测试/SonarQube/Codecov 检查等等，了解 Jenkins 基本用法
 - 熟练使用 GitHub Pages、Netlify 和 Vercel 等 CD 工具部署产品
 - 熟悉 Sentry、Dynatrace 和 NewRelic 等前端监控产品
-- 熟悉 PostgresSQL、MongoDB 和 Redis 的使用
+- 熟悉使用 PostgresSQL、MongoDB 和 Redis 的使用、以及调优经验
 
 ## 项目经历
 
@@ -27,14 +28,16 @@
 
 负责智能化呼叫中心与客服管理平台研发，独立完成 Digital Connect 数字平台建设和 ChatBot 研发
 
-### **ChatBot**
+### ** AI ChatBot**
 
-项目描述：ChatBot 是自研的聊天机器人、帮助企业或个人解决问题、处理业务往来和提供产品服务等
+项目描述：AI ChatBot 是自研的聊天机器人、帮助企业或个人解决问题、处理业务往来和提供产品服务等
 
 项目职责：
 
 - 使用 Vite 工具构建项目、使用 Lerna 管理项目代码，对不同的仓库单独发版部署
 - 使用 Prettier/ESLint/Stylelint/CSpell/commitlint/husky 等工具，提升代码质量与团队协作效率
+- 在服务器上部署大模型、提供 Node sdk 对接 ChatBot 项目
+- 使用 langchain.js 接入 OpenAI/DeepSeek 等 LLM 服务，提供 visual agent 服务
 - 使用 Vitest 编写单元测试，测试覆盖率达到 90%+
 - 使用 Playwright 编写视觉回归测试，可甄别出 1px 的改动，UI 的 Bugs 降低 60%
 - 接入 NewRelic 和 Dynatrace 工具，收集、分析和展示产品的性能数据，帮助发现性能、故障等
@@ -42,6 +45,7 @@
 - 独立使用 Express 构建 BFF 服务，接入 GraphQL，减少前端 HTTP 请求次数，支持按需获取数据，降低冗余请求，提升接口响应速度 40%
 - 使用 GitHub Actions 管理产品自动构建流程、执行类型检查/单元测试/视觉回归测试/SonarQube 检查
 - 定期分享前端技术，先后在公司内部分享《前端工程化》、《深入浅出 SWR》技术
+- 负责该项目的整体进度开发和任务分配、人才培养
 
 ##
 
@@ -61,6 +65,7 @@
 - 使用 Jest + React Testing Library 编写单元测试、测试覆盖率达到 90%+，发布周期缩短 50%
 - 使用 React Navigation6+配合 React Native Screens 启用原生导航，页面切换流畅度接近原生 App
 - 通过 WebView 的优化、代码分离、懒加载等技术手段来提升页面渲染和大数据量加载的性能
+- 使用 Express.js 框架写 BFF 服务，优化上层数据结构，进行统一的鉴权管理，优化接口响应速度、减轻客户端压力
 
 ##
 
