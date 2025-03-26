@@ -3,7 +3,7 @@
 ## 专业技能
 
 - 熟练使用 React 框架以及 React-Router、Zustand 和 Tailwind CSS 开发 SaaS 平台（熟悉 Vue/Svelte/Solid 框架）
-- 熟悉使用 Node.js 进行 Restful API 开发
+- 熟练使用 Node.js 进行 RESTful API 设计与开发
 - 熟悉使用 Babel/esbuild/Webpack/Vite/Rollup 编译和构建工具，并有实施、调优经验
 - 熟悉使用 Koa2/Express.js 后端框架写 BFF 服务，并用 Vercel/Docker+PM2 部署，了解 GraphQL
 - 熟悉使用 TypeScript，熟练运用类型系统进行静态检查，提升代码可维护性，优化大型前端项目的类型安全和开发效率
@@ -15,7 +15,7 @@
 - 熟练使用 Chrome DevTools、Lighthouse、Web Vitals 以及 Charles 等工具优化网站性能、调试和提升用户体验
 - 熟练使用 GitHub Actions 管理自动构建流程、执行类型检查/单元测试/视觉回归测试/SonarQube/Codecov 检查等等，了解 Jenkins 基本用法
 - 熟练使用 GitHub Pages、Netlify 和 Vercel 等 CD 工具部署产品
-- 熟悉 Sentry、Dynatrace 和 NewRelic 等前端监控产品
+- 熟悉使用 Sentry、Dynatrace 和 NewRelic 等前端监控产品、收集、分析和展示产品的各项数据
 - 熟悉使用 PostgresSQL、MongoDB 和 Redis 的使用、以及调优经验
 
 ## 项目经历
@@ -26,7 +26,7 @@
   workTime="2021/8—2025/3"
 />
 
-负责智能化呼叫中心与客服管理平台研发，独立完成 Digital Connect 数字平台建设和 ChatBot 研发
+负责智能化呼叫中心与客服管理平台研发，独立完成 Digital Connect 数字平台建设和 AI ChatBot 研发
 
 ### ** AI ChatBot**
 
@@ -36,8 +36,8 @@
 
 - 使用 Vite 工具构建项目、使用 Lerna 管理项目代码，对不同的仓库单独发版部署
 - 使用 Prettier/ESLint/Stylelint/CSpell/commitlint/husky 等工具，提升代码质量与团队协作效率
-- 在服务器上部署大模型、提供 Node sdk 对接 ChatBot 项目
-- 使用 langchain.js 接入 OpenAI/DeepSeek 等 LLM 服务，提供 visual agent 服务
+- 在服务器上部署大模型、提供 Node.js SDK 对接 ChatBot 项目
+- 使用 langchain.js 接入 OpenAI/DeepSeek 等 LLM 服务，提供 visual agent 服务，显著提高人效
 - 使用 Vitest 编写单元测试，测试覆盖率达到 90%+
 - 使用 Playwright 编写视觉回归测试，可甄别出 1px 的改动，UI 的 Bugs 降低 60%
 - 接入 NewRelic 和 Dynatrace 工具，收集、分析和展示产品的性能数据，帮助发现性能、故障等
