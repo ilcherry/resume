@@ -3,7 +3,7 @@
 ## 专业技能
 
 - 熟悉提示词工程、如上下文增强、复杂任务分解、提示词链和提示词模板等
-- 善于利用 Ollama 国内外大模型（LLMs）部署和使用
+- 善于利用 Ollama 国内外大模型（LLMs）部署和使用和调用硅基流动等服务商 LLMs API 进行应用开发
 - 熟练使用 LangChain.js、Coze 等工具、对智能代理设计和任务规划有深入理解
 - 了解 hono.js、 FastAPI、Hugging Face 等框架
 - 熟练使用 React 框架以及 React-Router、Zustand 和 Tailwind CSS 开发 SaaS 平台（熟悉 Vue/Svelte/Solid 框架）
