@@ -27,7 +27,7 @@
 <CompanyProfile
   name="Talkdesk"
   title="资深前端工程师"
-  workTime="2021/8—2025/3"
+  workTime="2021/8—2025/4.3"
 />
 
 负责智能化呼叫中心与客服管理平台研发，独立完成 Digital Connect 数字平台建设和 AI ChatBot 研发
