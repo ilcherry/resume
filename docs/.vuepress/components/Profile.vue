@@ -7,7 +7,7 @@
       >
     </div>
     <div>
-      <span>7 年半工作经验</span>|<span>求职意向：<strong>全职前端开发</strong></span>
+      <span>7 年半工作经验</span>|<span>求职意向：<strong>全职前端/全栈开发</strong></span>
     </div>
   </div>
 </template>
